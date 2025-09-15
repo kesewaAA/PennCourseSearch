@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href = "/style.css" rel = "stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penn Course Search</title>
+
+</head>
+<body>
+    <header class="header1">
+        <div class="penn-logo">P</div>
+        <div class="header-text">
+            <span class="left-text">Penn</span>
+            <span class="right-text">Welcome, Lisa</span>
+        </div>
+    </header>
+    <header class="header">
+        <div class="header-text">
+            <div class="search-classes-title">Search Classes</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <select class="form-select">
+                    <option>Fall 2025</option>
+                    <option>Spring 2025</option>
+                    <option>Summer 2025</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Course or instructor" value="Cis">
+            </div>
+
+            <div class="form-group">
+                <select class="form-select">
+                    <option>Instruction Method</option>
+                    <option>In-Person</option>
+                    <option>Online</option>
+                    <option>Hybrid</option>
+                </select>
+            </div>
+
+            <div class="checkbox-group">
+                <div class="checkbox-item">
+                    <input type="checkbox" class="checkbox" id="online-courses">
+                    <label for="online-courses" class="checkbox-label">Find courses available to students in online programs</label>
+                </div>
+                <div class="checkbox-item">
+                    <input type="checkbox" class="checkbox" id="no-overlap">
+                    <label for="no-overlap" class="checkbox-label">Don't Overlap Primary Cart</label>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                > SEARCH
+            </button>
+
+            <button type="button" class="btn btn-primary">
+                > PRIMARY CART
+            </button>
+
+            <div class="form-group">
+                <select class="form-select">
+                    <option>Select a Cart...</option>
+                    <option>Primary Cart</option>
+                    <option>Cart 2</option>
+                </select>
+            </div>
+
+            <button type="button" class="btn btn-primary">
+                > PRIMARY PLAN
+            </button>
+
+            <div class="form-group">
+                <select class="form-select">
+                    <option>Select a Plan...</option>
+                    <option>Plan 1</option>
+                    <option>Plan 2</option>
+                </select>
+            </div>
+        </form>
+
+        <div class="advanced-search">
+            <div class="advanced-search-header">
+                <h3 class="advanced-search-title">Advanced Search</h3>
+                <a href="#" class="edit-btn">EDIT</a>
+            </div>
+
+            <div class="exclude-times">
+                <input type="checkbox" id="exclude-times">
+                <label for="exclude-times">Exclude Times</label>
+            </div>
+
+            <div class="form-group">
+                <select class="form-select">
+                    <option>Subject</option>
+                    <option>Computer Science</option>
+                    <option>Mathematics</option>
+                    <option>Physics</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <select class="form-select">
+                    <option>School</option>
+                    <option>Engineering</option>
+                    <option>Arts & Sciences</option>
+                    <option>Business</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <select class="form-select">
+                    <option>Level</option>
+                    <option>Undergraduate</option>
+                    <option>Graduate</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <select class="form-select">
+                    <option>Schedule Type</option>
+                    <option>Lecture</option>
+                    <option>Lab</option>
+                    <option>Seminar</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <select class="form-select">
+                    <option>Credit</option>
+                    <option>0.5 Credit</option>
+                    <option>1 Credits</option>
+                    <option>1.5 Credits</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <select class="form-select">
+                    <option>Meeting Time</option>
+                    <option>MW 9am - 10am</option>
+                    <option>MW 1pm - 4:30pm</option>
+                    <option>TR 8:30 - 9:59am</option>
+                    <option>TR 1:45 - 3:15pm</option>
+                    <option>F 8:30 - 9:59am</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <select class="form-select">
+                    <option>Campus/Online</option>
+                    <option>Main Campus</option>
+                    <option>Online</option>
+                    <option>Hybrid</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <select class="form-select">
+                    <option>Class Status</option>
+                    <option>Open</option>
+                    <option>Closed</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

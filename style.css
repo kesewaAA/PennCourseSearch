@@ -1,0 +1,213 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.4;
+        }
+
+        .header {
+            background-color: #990000;
+            color: white;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .header1 {
+            background-color: #ffffff;
+            color: black;
+            padding: 12px 16px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .penn-logo {
+            width: 24px;
+            height: 24px;
+            background-color: #990000;
+            color: #ffffff;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 16px;
+            margin-right: 12px;
+        }
+
+        .header-text {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between; /* Pushes items to the far ends */
+            width: 100%;
+        }
+
+        .welcome-text {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        .welcome {
+            text-align: end;
+
+        }
+
+        .search-classes-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+
+        .container {
+            padding: 16px;
+            max-width: 100%;
+        }
+
+        .form-group {
+            margin-bottom: 12px;
+        }
+
+        .form-control, .form-select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            background-color: white;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+        }
+
+        .form-select {
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-size: 16px;
+            padding-right: 40px;
+            color: #666;
+        }
+
+        .form-control:focus, .form-select:focus {
+            outline: none;
+            border-color: #011f5b;
+            box-shadow: 0 0 0 2px rgba(51, 102, 204, 0.2);
+        }
+
+        .checkbox-group {
+            margin: 16px 0;
+        }
+
+        .checkbox-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .checkbox {
+            width: 18px;
+            height: 18px;
+            margin-right: 12px;
+            accent-color: #011f5b;
+        }
+
+        .checkbox-label {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 14px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-bottom: 12px;
+            transition: background-color 0.2s;
+        }
+
+        .btn-primary {
+            background-color: #011f5b;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background-color: #2952a3;
+        }
+
+        .btn-primary:active {
+            background-color: #1e3d72;
+        }
+
+        .advanced-search {
+            margin-top: 24px;
+            padding: 16px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .advanced-search-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .advanced-search-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .edit-btn {
+            color: #011f5b;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            padding: 6px 12px;
+            border: 1px solid #011f5b;
+            border-radius: 6px;
+            background-color: white;
+        }
+
+        .edit-btn:hover {
+            background-color: #f0f4ff;
+        }
+
+        .exclude-times {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .exclude-times input[type="checkbox"] {
+            margin-right: 8px;
+        }
+
+        @media (max-width: 375px) {
+            .container {
+                padding: 12px;
+            }
+
+            .form-control, .form-select {
+                padding: 10px 14px;
+                font-size: 16px;
+            }
+        }
